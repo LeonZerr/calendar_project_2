@@ -28,7 +28,7 @@ def show_current_year():
         
         month_text = calendar.month(year, month_num) #Generate calendars
         
-        output_text.insert("end", month_text + "\n\n") #Output / space between months
+        output_text.insert("end", month_text + "\n") #Output / space between months
 
     output_text.yview("end") #Allows user to scroll through months
 
