@@ -4,7 +4,7 @@ A simple calendar application built with Python and Tkinter that allows users to
 ![picture](screenshot3.png)
 
 ## Requirements:
-
+Before running the program, make sure you have the following installed:
 - Python 3
 - Tkinter for the GUI
 - PostgreSQL for database management
@@ -12,6 +12,14 @@ A simple calendar application built with Python and Tkinter that allows users to
 - python-dotenv to load environment variables
   
 ![picture](construction.png)
+
+---
+
+## How to Run:
+ - Clone the repository
+ - Set up (create) the PostgreSQL database: calendar_db;
+ - Create a .env file in the root directory with your PostgreSQL connection details
+ - Run the application (python main.py)
 
 
 ## Once the program is running, the Tkinter interface provides the following options:
